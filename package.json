@@ -1,0 +1,31 @@
+{
+  "name": "skimlinks-app",
+  "version": "0.0.1",
+  "description": "Simple app to install the Skimlinks Javascript on your site",
+  "main": "app.js",
+  "scripts": {
+    "lint": "standard --fix ./source/**/*.js || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlianza/cloudflare_skimlinks.git"
+  },
+  "author": "Tom Lianza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tlianza/cloudflare_skimlinks/issues"
+  },
+  "homepage": "https://github.com/tlianza/cloudflare_skimlinks#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^9.0.2"
+  },
+  "standard": {
+    "globals": [
+      "INSTALL",
+      "INSTALL_OPTIONS",
+      "INSTALL_SCOPE",
+      "INSTALL_ID"
+    ]
+  }
+}
